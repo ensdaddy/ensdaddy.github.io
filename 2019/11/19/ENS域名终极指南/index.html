@@ -1,0 +1,258 @@
+<html>
+<!-- Head tag -->
+<head>
+  <meta charset="UTF-8">
+
+  
+  <title>
+    ENS 域名终极指南 |
+    ENSDaddy
+  </title>
+  
+
+
+  <meta name="description" content="一旦设置了地址的记录，在像 MetaMask 这样的钱包里输入 ens 域名，就会自动解析出你的钱包地址。">
+  <meta name="author" content="安仔Clint">
+  <meta property="og:title" content="ENS 域名终极指南" />
+  <meta property="og:description" content="一旦设置了地址的记录，在像 MetaMask 这样的钱包里输入 ens 域名，就会自动解析出你的钱包地址。" />
+  <meta property='og:site_name' content='ENSDaddy' />
+  <meta property="og:image" content="ensdaddy.com/img/default.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="一旦设置了地址的记录，在像 MetaMask 这样的钱包里输入 ens 域名，就会自动解析出你的钱包地址。" />
+  <meta name="twitter:title" content="ENS 域名终极指南" />
+
+  <meta name="twitter:image" content="ensdaddy.com/img/default.jpg" />
+
+  <script src="https://www.amcharts.com/lib/4/core.js"></script>
+  <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/./css/style.css">
+
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark page-navbar gradient">
+  <div class="container">
+    <a class="navbar-brand logo" href="ensdaddy.com">
+      ENSDaddy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item item">
+          
+        <li class="nav-item item">
+          <a class="nav-link" href="/">
+            🚪主页</a>
+        </li>
+        
+        <li class="nav-item item">
+          <a class="nav-link" href="/archives">
+            🗂️归档</a>
+        </li>
+        
+        <li class="nav-item item">
+          <a class="nav-link" href="https://app.ens.domains" target="_blank" rel="noopener">
+            😋注册</a>
+        </li>
+        
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <main class="page main-page">
+        <div class="container blogPost">
+    <div class="row">
+        <div class="col-sm-8">
+            <h2 class="blog-post-title">
+                ENS 域名终极指南
+            </h2>
+            <p class="meta"><i class="far fa-clock"></i>
+                2019-11-19
+                
+            </p>
+            <!-- Content -->
+            <p>ENS 是当下以太坊生态中最热门的话题之一，这股潮流的出现有很多因素。正如<a href="https://ens.domains/" target="_blank" rel="noopener">官网提到的那样</a>：“ENS 利用可读的域名，为链上、链下资源寻址提供了一种既安全又去中心化的解决方案。”</p>
+<p>简单来说， ENS 能给你的以太坊（或是<a href="https://medium.com/the-ethereum-name-service/ens-launches-multi-coin-support-15-wallets-to-integrate-92518ab20599" target="_blank" rel="noopener">你喜欢的其它链</a>）地址绑定一个域名。这和传统互联网里面的 DNS 十分接近。虽然所有的网站都是用 IP 地址托管的，但几乎没有人会在浏览器中输入 IP ，大家都是使用 amzon.com 进行网页浏览，而不是敲 205.251.242.103（你大可试试，能用！）。ENS 有很多非常棒的特性，本文就不在此赘述，这篇文章主要是想告诉大家如何注册 .eth 域名，并且注册之后应该如何管理和使用自己的 .eth 域名、子域名。<br><br/></p>
+<h1 id="注册-eth-域名"><a href="#注册-eth-域名" class="headerlink" title="注册 .eth 域名"></a>注册 .eth 域名</h1><p>ENS 系统中的核心操作就是注册 .eth 域名了。当注册 ENS 域名时应该牢记以下几点：</p>
+<ol>
+<li>域名最短长度为 3 位。</li>
+<li>不同长度域名的注册年费不同。3 位域名的注册年费为 $640/年 ，4 位域名的注册年费为 $160/年 ，5位及以上长度的域名注册年费为 $5/year 。</li>
+<li>Emoji 也能注册👍🏼<br/>
+<br/>
+
+</li>
+</ol>
+<h1 id="创建并管理域名"><a href="#创建并管理域名" class="headerlink" title="创建并管理域名"></a>创建并管理域名</h1><p>在<a href="https://app.ens.domains/" target="_blank" rel="noopener"> ENS 官方注册器</a>上注册 .eth 域名其实很简单。首先搜索你喜欢的域名。如果还没有被注册（如果已经被注册了，可以到  <a href="https://opensea.io/assets/ens" target="_blank" rel="noopener">OpenSea</a> 上搜索看看有没有出售这个域名），你会看到如下画面。</p>
+<p><img src="https://i.loli.net/2019/11/19/DEZ6gAsJSnkuxNH.png" alt="ENS 域名注册"></p>
+<p>看到以上网页时，你可以点击 Request To Register 按钮，这会触发生成一笔交易，静待 1 分钟后进度条会运行到第 3 步，然后再次点击蓝色按钮发送一笔交易，发送完成后，这个域名就是你的了。</p>
+<p>现在你拥有了一个 .eth 域名，是否都迫不及待把它用起来了呢？ 首先我们需要进入域名管理器。</p>
+<p><img src="https://i.loli.net/2019/11/19/wibG35updvfUZmB.png" alt="ENS 域名管理器"></p>
+<p>域名管理器里面又很多属性，我们这就一一解释：</p>
+<ul>
+<li>Registrant（注册人）：可以设置 controller（控制人）的地址，同时可以把注册权（registration）转移给别人。Registrant 是当前域名真正的主人。</li>
+<li>Controller（控制人）：对域名进行各种“日常配置操作”的人。</li>
+<li>Expiration Date（到期时间）：显示当前域名的到期时间，你可以在这个页面完成续费。</li>
+<li>Resolver（解析器）：负责解析（转换）下面提到的记录（records），告诉钱包等应用这个域名究竟和哪一个以太坊地址对应。如果直接按 Set 按钮，会设置为默认的<a href="https://docs.ens.domains/contract-api-reference/publicresolver" target="_blank" rel="noopener">公共解析器</a>。</li>
+<li>Records（记录）：在这里可以给你的域名设置很多有意思的东西。如果添加了一条地址记录，那当在钱包中直接输入你的 .eth 域名后，就会直接指向你的钱包地址。你也可以添加一条 IPFS 内容哈希的记录，（在安装了 metamask 等插件的情况下）在浏览器中输入你的 ens 域名会直接跳转到对应的 IPFS 资源。</li>
+</ul>
+<p>一旦设置了地址的记录，在像 MetaMask 这样的钱包（译者注：imtoken，myetherwallet，alphawallet 等45种钱包都支持）里输入 ens 域名，就会自动解析出你的钱包地址。</p>
+<p><img src="https://i.loli.net/2019/11/19/dJhLKw6ez85Smlr.png" alt="MetaMask 支持 ENS 域名"></p>
+<p>如果你添加了 IPFS 哈希的记录，在安装了 MetaMask 等插件的浏览器中可以像这样直接输入 ethhub.eth 来访问对应的 IPFS 资源。对没有装插件的浏览器，也可以通过在浏览器中输入 ethhub.eth.link 来访问该资源，这种方式没有解析 ENS 域名，而是通过 ENS 官方所维护的一个网关。<br><br/><br><br/></p>
+<h1 id="子域名"><a href="#子域名" class="headerlink" title="子域名"></a>子域名</h1><p>子域名为构建在 .eth 之上的域名提供了很大的灵活性。如果你是一家公司，比方说 Maker ，然后想在 maker.eth 之下为你的每一位员工配置一个子域名，在 ens 里面这十分简单。这一节我们不仅会介绍如何创建属于自己的子域名，也会介绍如何让别人能够购买你域名之下的子域名。<br><br/><br><br/></p>
+<h2 id="创建并管理子域名"><a href="#创建并管理子域名" class="headerlink" title="创建并管理子域名"></a>创建并管理子域名</h2><p>如果你有一个 .eth 域名，并且希望创建一些子域名给自己用，那最简单的办法就是在 ENS 管理器上点击 Subdomains 按钮。在这里你能创建一些新域名。</p>
+<p><img src="https://i.loli.net/2019/11/19/cM5muXet8G7SwKD.png" alt="ENS 子域名注册"></p>
+<p>一旦创建了短域名，接下来的设置细节就和域名十分接近，子域名的所有者可以控制子域名，并设置记录。这就意味着像 eric.ethhub.eth 这样的子域名也可以解析到一个钱包地址，或者是 IPFS 网站。</p>
+<p><img src="https://i.loli.net/2019/11/19/sHdXTVBYJl3LUtN.png" alt="ENS 短域名管理器"><br><br/><br><br/></p>
+<h2 id="让任何人都能申请你-eth-域名下的子域名"><a href="#让任何人都能申请你-eth-域名下的子域名" class="headerlink" title="让任何人都能申请你 .eth 域名下的子域名"></a>让任何人都能申请你 .eth 域名下的子域名</h2><p>上面介绍的子域名操作是由 .eth 域名的注册人发起的。他们创建子域名，并享有最终的控制权，甚至可以收回子域名。对于某个公司或是个人而言，享有名下子域名的所有控制权无可厚非，但是如果你想要全球任何人都能申请你名下子域名，这种做法是否还合适呢？显然你不会想要和他们做过多的接触，他们也绝对不会希望你能有权限发起子域名撤回操作。告诉你一个好消息，其实有一种办法能让开放子域名注册变得很简单，你甚至可以明码标价出售自己的子域名。</p>
+<p>这个方案会把你域名的控制权交给 <a href="https://github.com/ensdomains/subdomain-registrar" target="_blank" rel="noopener">ENS 子域名注册器合约</a>。这意味着是由这个智能合约向人们分发你的短域名，同时你无法对这些短域名发起撤回操作。目前这个交互过程还需要手动进行，不过实际上很简单。Nick Johnson 在<a href="https://medium.com/the-ethereum-name-service/migrating-your-ensnow-domains-to-the-new-registrar-c0085eaaeff2" target="_blank" rel="noopener">这篇关于 ENSNow 的文章</a>中解释的很清楚，下面我把具体的步骤列举说明：</p>
+<p><strong>预警说明：通过以下操作，你将永久性地失去对自己域名的使用权！你可以从短域名注册中收取费用，更改短域名定价，将域名的控制权转移给别的用户，但你无法使用这个域名做别的任何事了！</strong></p>
+<ol>
+<li>加载<a href="https://etherscan.io/address/0xfac7bea255a6990f749363002136af6556b31e04#writeContract" target="_blank" rel="noopener"> .eth 注册器合约</a>。如果你是用 Etherscan 进行操作，你需要点击“通过 Metamask 连接”（Connect with Metamask），然后授权之后 Metamask 弹出来的对话框。</li>
+<li>找到 ‘approve’ 函数。</li>
+<li>在地址一栏填写 ‘0xc32659651d137a18b79925449722855aa327231d’</li>
+<li>在 tokenId 一栏填写你域名的 labelhash 。可以在 etherscan 上找到对应域名的 labelhash（举例来说，搜索‘Label hash [foo]:’）</li>
+<li>加载<a href="https://etherscan.io/address/0xc32659651d137a18b79925449722855aa327231d#writeContract" target="_blank" rel="noopener">新子域名注册器合约</a>（new subdomain registrar contract）。</li>
+<li>提交这笔交易。</li>
+<li>找到 ‘configureDomian’ 函数。</li>
+<li>在域名（name）一栏，填写你想要挂出来的域名，不需要加 ‘.eth’ 后缀（比方说直接填 ‘gimmethe’,而不是‘gimmethe.eth’）。</li>
+<li>在价格一栏，填写你对子域名注册收取的费用，单位为 wei 。1 以太币等于 10^18 wei，因此如果你想要对每个子域名收取 0.01 以太币的注册费，你应该填 10000000000000000 。这里有一个<a href="https://gwei.io/" target="_blank" rel="noopener">换算器</a>。</li>
+<li>在 referralFeePPM 一栏，填写你愿意支付给其它网站的推广费用，提成按每一个成功注册的子域名计算。举例来说，如果你想把所有的钱都留给自己，那就直接输 0 。如果你想要把收入全给那个帮你推广的网站，那就输入 1000000 。</li>
+<li>提交这笔交易。</li>
+</ol>
+<p>现在你的域名被转交给了子域名注册器合约。如果你设置了子域名注册费，那每当有人成功注册一个子域名时，注册费都会直接发送到你的钱包里。这个特性让 ens 域名多了很多可玩性。<br><br/><br><br/></p>
+<h1 id="把你的子域名挂到-ENSNow-上"><a href="#把你的子域名挂到-ENSNow-上" class="headerlink" title="把你的子域名挂到 ENSNow 上"></a>把你的子域名挂到 ENSNow 上</h1><p>ENS 官方团队已经做了一个<a href="https://now.ens.domains/" target="_blank" rel="noopener">网站</a>，所有人都能在这个网站上注册子域名。如果你想要把自己的短域名挂到这个网站上，过程也很简单。Nick 也已经写过<a href="https://medium.com/@weka/how-to-list-your-domain-on-ensnow-7297808f31f5" target="_blank" rel="noopener">一篇文章</a>介绍具体的流程，我把其中的步骤列举说明如下：</p>
+<ol>
+<li>跳转到这个<a href="https://github.com/ensdomains/subdomain-registrar" target="_blank" rel="noopener">网站</a>然后点解右上角的‘fork’按钮。</li>
+<li>按顺序进入 app-&gt;js-&gt;domains.json 。</li>
+<li>点击文件右上角的铅笔图标。</li>
+<li>找到一个合适的地方来键入你的域名实体（实体是按字母表顺序排列的）。</li>
+<li>新起一行，添加你的域名实体。如果是按上文中的步骤完成域名管理权转移的，应该在这里填 {“name”:”yourdomain”,”version”:”1.0”}, 。</li>
+<li>点按页面底部的 ‘Commit changes’ 按钮来提交你的改动。</li>
+<li>点击 ‘Pull requests’ ，然后点击 ‘New pull request’ 。</li>
+<li>点击 ‘Create pull request’ 。</li>
+</ol>
+<p><img src="https://i.loli.net/2019/11/19/7gL2zSxVmIG6lOU.png" alt="ENSNow"><br><br/><br><br/></p>
+<h1 id="建立你自己的子域名销售站"><a href="#建立你自己的子域名销售站" class="headerlink" title="建立你自己的子域名销售站"></a>建立你自己的子域名销售站</h1><p>ENS 虽然简单好用，但把自己的域名和别人的混在一起无法凸显自己的品牌。所以如果你想建立一个网站，同时只销售自己的子域名，并这个网站进行定制设计，也不是不可以。我正在运营着的 <a href="https://ethmojis.com" target="_blank" rel="noopener">Ethmojis </a>就是这样一个网站。</p>
+<p>建立这样一个网站最好是从<a href="https://github.com/ensdomains/subdomain-registrar" target="_blank" rel="noopener"> Subdomain Registrar GitHub 网页</a>上开始。他们有教程介绍“上手流程”，我在这里尽自己可能总结列举如下：</p>
+<ol>
+<li>下载安装 node.js 以及 NPM </li>
+<li>使用 npm install -g truffle 指令下载 Truffle</li>
+<li>下载并安装 <a href="https://www.trufflesuite.com/ganache" target="_blank" rel="noopener">Ganache</a></li>
+<li>将 <a href="https://github.com/ensdomains/subdomain-registrar" target="_blank" rel="noopener">subdomain-registrar 仓库 </a>克隆到电脑上</li>
+<li>在终端进入你克隆的文件夹里，运行 npm install 命令</li>
+<li>找到 /app/js/domains.json 文件，将白名单改成只有你自己的域名。我的配置是： [{“name”: “ethmojis”, “version”: “1.0”}]</li>
+<li>发挥自己的创造力，设计改动 index.html 文件</li>
+<li>在终端跳转或你克隆的子域名注册器的目录</li>
+<li>运行: ganache-cli &amp;<br>truffle deploy<br>npm run dev</li>
+<li>如果一切运行良好，运行 npm run build</li>
+<li>然后会生成一个 build 文件夹，包含了所有的文件输出。这就是你的最终网站，你可以八通放到服务器或者 IPFS 上。</li>
+</ol>
+<p>要想把网站托管到 IPFS 上，你需要把整个 build 文件夹上传，获取资源哈希。然后把这个资源哈希放到任何 ENS 域名或者子域名的 “records” 中！成功后网站可能就会像这样：</p>
+<p><img src="https://i.loli.net/2019/11/19/fG715HW3CuBzldL.png" alt="购买 Ethmojis 子域名"></p>
+<p>恭喜，你现在是一名 ENS（Ethereum Name Service） 专家了！</p>
+
+            <br />
+            <p class="meta">
+                
+
+<a href="/tags/教程/"> <i class="fas fa-tags"></i>
+    教程 </a>
+
+            </p>
+        </div>
+
+        <div class="col-sm-4">
+            
+
+<span><b>
+        About us</b></span>
+<p>
+    We are ENS fans from China , helping more people having fun with ENS .
+</p>
+<hr />
+
+
+<span><b>
+        关于我们</b></span>
+<p>
+    来自中国的ENS志愿推广者， 让更多人用上ENS
+</p>
+<hr />
+
+
+
+
+
+
+<span><a href="https://twitter.com/ensbot" target="_blank" rel="noopener"><b><i class="fab fa-twitter-square"></i>
+            <i class="fas fa-at"></i>
+            ensbot</b></a></span>
+<br />
+<a class="twitter-timeline" data-height="800" data-dnt="true" data-chrome="nofooter transparent noheader noborders "
+    href="https://twitter.com/ensbot?ref_src=twsrc%5Etfw"></a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </div>
+    </div>
+</div>
+<!-- Menu fade on scroll -->
+<script>
+    var isScrolling;
+    var prevScrollpos = window.pageYOffset;
+    window.addEventListener('scroll', function (event) {
+        window.clearTimeout(isScrolling);
+        isScrolling = setTimeout(function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                $("#navbar").slideDown();
+            } else {
+                $("#navbar").slideUp();
+            }
+            prevScrollpos = currentScrollPos;
+        }, 66);
+    }, false);
+</script>
+
+<a class="float-left gradient btn paginationbtn" href="/2019/11/11/V神、NBA...还有谁抱走了自己的ENS域名/"><i class="fas fa-chevron-left"></i></a>
+
+
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer">
+  <div class="container">
+    <div class="social-icons">
+      
+      <a href="https://weibo.com/u/6217712416" title="weibo" target="_blank" rel="noopener" class="fab fa-weibo"></a>
+      
+      <a href="https://twitter.com/ensdaddy" title="twitter" target="_blank" rel="noopener" class="fab fa-twitter"></a>
+      
+      <a href="https://raw.githubusercontent.com/changqa/images/changqa/images/qrcode_for_gh_83ae1efca3d5_1280%20(1).jpg" title="公众号" target="_blank" rel="noopener" class="fab fa-weixin"></a>
+      
+    </div>
+    <div class="about-us">
+      <img src="https://raw.githubusercontent.com/changqa/images/changqa/images/qrcode_for_gh_83ae1efca3d5_1280%20(1).jpg" alt="wechat" width="100px" height="100px">
+      <h5>🙉点关注 不迷路🙈</h5>
+    </div>
+  </div>
+</footer>
+    <!-- After footer scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
